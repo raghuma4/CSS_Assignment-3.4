@@ -1,0 +1,51 @@
+			 
+		div
+		{
+			margin: auto;
+			width: 35%;
+			border-radius: 5px;    		 
+    		padding: 5px 20px 10px 20px;
+		}
+		form
+		{
+			background-image: url("formimage.jpg");
+			height: 500px;
+		}
+		input[type=text],input[type=number], select
+		{
+			width: 85%;
+			display: block; 
+			padding: 8px 12px;
+			border: 1px solid #ccc;
+    		border-radius: 5px;
+    		margin: 8px 20px;
+		}
+		 
+		input[type=submit]
+		{	
+			width: 125px;
+			background-color: transparent;
+			border: 2px solid #000080;
+			border-radius: 5px;
+			display: block;
+			margin: 20px 10px 50px 20px;
+			padding: 10px;
+			color: black;
+		}
+		label
+		{
+			margin: 8px 20px;
+			font-family: sans-serif;
+
+		}
+		h3
+		{
+			color: white;
+			font-style: normal;
+			font-family: Times New Roman;
+			margin: 8px 10px; 
+		}
+		input[type=text]:invalid
+		{
+			border: 1px solid red;
+		}
